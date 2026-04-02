@@ -9,7 +9,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link rel="stylesheet" href="./css/main-e2a6b649b9.css" />
-    <link rel="stylesheet" href="./css/second-e4f35d19c3.css" />
+    <link rel="stylesheet" href="./css/second-54f39d8ae8.css" />
   </head>
 
   <body>
@@ -27,19 +27,19 @@
       </svg>
     </div>
     <div class="wrapper">
-      <header class="header">
+      <header class="header animate">
         <div class="header__container">
           <a href="" class="header__logo">
-            <!-- <svg class="header__logo-icon">
+            <svg class="header__logo-icon">
               <use xlink:href="img/symbol/svg/sprite.symbol.svg#logo"></use>
-            </svg> -->
+            </svg>
           </a>
           <div class="header__menu menu">
             <nav class="menu__body">
-              <ul data-spollers="992,max" data-one-spoller class="menu__list">
+              <ul data-spollers="1024,max" data-one-spoller class="menu__list">
                 <li class="menu__item">
-                  <button data-spoller class="menu__link menu__link--btn"> Products <svg class="menu__arrow-icon">
-                      <use xlink:href="img/sprite.svg#arrow"></use>
+                  <button data-spoller class="menu__link menu__link--btn"> Projects <svg class="menu__arrow-icon">
+                      <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow"></use>
                     </svg>
                   </button>
                   <ul class="menu__sub-list">
@@ -55,8 +55,20 @@
                   </ul>
                 </li>
                 <li class="menu__item">
-                  <button data-spoller class="menu__link menu__link--btn"> Features <svg class="menu__arrow-icon">
-                      <use xlink:href="img/sprite.svg#arrow"></use>
+                  <a href="#" class="menu__link">News</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">FAQ</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Ambassadors</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">About us</a>
+                </li>
+                <li class="menu__item">
+                  <button data-spoller class="menu__link menu__link--btn"> WEB3 <svg class="menu__arrow-icon">
+                      <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow"></use>
                     </svg>
                   </button>
                   <ul class="menu__sub-list">
@@ -70,33 +82,29 @@
                       <a href="#" class="menu__sub-link">link 3</a>
                     </li>
                   </ul>
-                </li>
-                <li class="menu__item">
-                  <button data-spoller class="menu__link menu__link--btn"> Resources <svg class="menu__arrow-icon">
-                      <use xlink:href="img/sprite.svg#arrow"></use>
-                    </svg>
-                  </button>
-                  <ul class="menu__sub-list">
-                    <li class="menu__sub-item">
-                      <a href="#" class="menu__sub-link">link 1</a>
-                    </li>
-                    <li class="menu__sub-item">
-                      <a href="#" class="menu__sub-link"> link 2</a>
-                    </li>
-                    <li class="menu__sub-item">
-                      <a href="#" class="menu__sub-link">link 3</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Pricing</a>
                 </li>
               </ul>
             </nav>
           </div>
           <div class="header__actions">
-            <a href="#" class="header__action button button--transparent">Login</a>
-            <a href="#" class="header__action button">Sign Up</a>
+            <button type="button" class="theme-toggle" aria-label="Toggle theme">
+              <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+              <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+            </button>
+            <a href="#" class="header__action button button--transparent">Create project</a>
+            <a href="#" class="header__action button">Connect Wallet</a>
           </div>
           <button type="button" class="icon-menu">
             <span></span>
@@ -122,6 +130,11 @@
             </div>
             <div class="hero__visual animate">
               <picture><source srcset="img/hero-coin-main.webp" type="image/webp"><img src="img/hero-coin-main.png" alt="GrantiX Coin" class="hero__image" /></picture>
+              <span class="hero__shadow" aria-hidden="true">
+                <svg class="hero__shadow-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#shadow"></use>
+                </svg>
+              </span>
               <picture><source srcset="img/hero-coin-blur-sm.webp" type="image/webp"><img src="img/hero-coin-blur-sm.png" alt="" class="hero__float hero__float--top" aria-hidden="true" /></picture>
               <picture><source srcset="img/hero-coin-blur-lg.webp" type="image/webp"><img src="img/hero-coin-blur-lg.png" alt="" class="hero__float hero__float--bottom" aria-hidden="true" /></picture>
             </div>
@@ -457,7 +470,9 @@
               <article class="market-card">
                 <div class="market-card__header">
                   <span class="market-card__status">CEX &bull; Live</span>
-                  <img src="img/exchanges/bingx.svg" alt="BingX" class="market-card__logo" />
+                  <svg class="market-card__logo">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#bingx"></use>
+                  </svg>
                 </div>
                 <div class="market-card__pair">GRANT / USDT</div>
                 <a href="#" class="market-card__button button">Trade on BingX</a>
@@ -465,7 +480,9 @@
               <article class="market-card">
                 <div class="market-card__header">
                   <span class="market-card__status">CEX &bull; Live</span>
-                  <img src="img/exchanges/bitmart.svg" alt="BitMart" class="market-card__logo" />
+                  <svg class="market-card__logo">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#bitmart"></use>
+                  </svg>
                 </div>
                 <div class="market-card__pair">GRANT / USDT</div>
                 <a href="#" class="market-card__button button">Trade on BitMart</a>
@@ -473,7 +490,9 @@
               <article class="market-card">
                 <div class="market-card__header">
                   <span class="market-card__status">DEX &bull; Live</span>
-                  <img src="img/exchanges/uniswap.svg" alt="Uniswap" class="market-card__logo" />
+                  <svg class="market-card__logo">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#uniswap"></use>
+                  </svg>
                 </div>
                 <div class="market-card__pair">GRANT / USDT</div>
                 <button class="market-card__button button disabled">Coming Soon</button>
@@ -943,7 +962,7 @@
           <div class="promo__container">
             <div class="promo__content">
               <div class="promo__head section-head">
-                <h2 class="section-head__title animate">The future of impact <br /> is onchain</h2>
+                <h2 class="section-head__title animate"> The future of impact <br /> is onchain </h2>
                 <p class="promo__subtitle section-head__subtitle animate"> Where your investment builds trust and impact — not just returns! </p>
               </div>
               <div class="promo__actions">
@@ -953,6 +972,11 @@
             </div>
             <div class="promo__visual">
               <picture><source srcset="img/promo-illustration.webp" type="image/webp"><img src="img/promo-illustration.png" alt="Onchain Impact" class="promo__image" /></picture>
+              <span class="promo__shadow" aria-hidden="true">
+                <svg class="promo__shadow-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#shadow"></use>
+                </svg>
+              </span>
             </div>
           </div>
         </section>
@@ -1113,7 +1137,7 @@
       </footer>
     </div>
     <link rel="stylesheet" href="./css/icons-640cbc1880.css" />
-    <script type="text/javascript" src="./js/all-c6964f1619.js"></script>
+    <script type="text/javascript" src="./js/all-4a07101993.js"></script>
   </body>
 
 </html>
