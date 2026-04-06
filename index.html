@@ -9,7 +9,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link rel="stylesheet" href="./css/main-e2a6b649b9.css" />
-    <link rel="stylesheet" href="./css/second-a8ee6c4908.css" />
+    <link rel="stylesheet" href="./css/second-d42e5533fc.css" />
   </head>
 
   <body>
@@ -67,7 +67,7 @@
               <h1 class="hero__title animate"> GrantiX <span>&ndash; Empowering Social <br /> Change with Blockchain <br /> Technology</span>
               </h1>
               <p class="hero__subtitle animate"> Where your investment builds trust and impact &mdash; not just returns! </p>
-              <a href="#" class="hero__button button button--primary hero__button animate">Buy $GRANT</a>
+              <a href="#markets" class="hero__button button button--primary hero__button animate">Buy $GRANT</a>
             </div>
             <div class="hero__visual animate">
               <div class="hero__coin-wrapper">
@@ -403,7 +403,7 @@
             </div>
           </div>
         </section>
-        <section class="markets section-offset">
+        <section id="markets" class="markets section-offset">
           <div class="markets__container">
             <div class="markets__head section-head">
               <h2 class="section-head__title animate">Markets</h2>
@@ -418,7 +418,7 @@
                   </svg>
                 </div>
                 <div class="market-card__pair">GRANT / USDT</div>
-                <a href="#" class="market-card__button button">Trade on BingX</a>
+                <a href="https://bingx.com/en/spot/GRANTUSDT" class="market-card__button button">Trade on BingX</a>
               </article>
               <article class="market-card">
                 <div class="market-card__header">
@@ -428,7 +428,7 @@
                   </svg>
                 </div>
                 <div class="market-card__pair">GRANT / USDT</div>
-                <a href="#" class="market-card__button button">Trade on BitMart</a>
+                <a href="https://www.bitmart.com/en-GB/trade/GRANT_USDT" class="market-card__button button">Trade on BitMart</a>
               </article>
               <article class="market-card">
                 <div class="market-card__header">
@@ -596,7 +596,7 @@
                     <span class="token-summary__value">1,000,000,000.00</span>
                   </div>
                 </div>
-                <a href="#" class="token-summary__button button button--white">Buy $GRANT</a>
+                <a href="#markets" class="token-summary__button button button--white">Buy $GRANT</a>
               </div>
             </div>
           </div>
@@ -610,7 +610,10 @@
             <div class="token-metrics__grid">
               <article class="metric-card">
                 <div class="metric-card__info">
-                  <span class="metric-card__label">Holders amount</span>
+                  <div class="metric-card__label-row">
+                    <span class="metric-card__label">Holders amount</span>
+                    <button type="button" class="info-trigger" data-tooltip="tooltip-holders" aria-label="Info about Holders amount"> i </button>
+                  </div>
                   <span class="metric-card__value">1130</span>
                 </div>
                 <div class="metric-card__visual">
@@ -619,7 +622,10 @@
               </article>
               <article class="metric-card">
                 <div class="metric-card__info">
-                  <span class="metric-card__label">FDV</span>
+                  <div class="metric-card__label-row">
+                    <span class="metric-card__label">FDV</span>
+                    <button type="button" class="info-trigger" data-tooltip="tooltip-fdv" aria-label="Info about FDV"> i </button>
+                  </div>
                   <span class="metric-card__value">$76,421,336</span>
                 </div>
                 <div class="metric-card__visual">
@@ -628,7 +634,10 @@
               </article>
               <article class="metric-card">
                 <div class="metric-card__info">
-                  <span class="metric-card__label">Market cap</span>
+                  <div class="metric-card__label-row">
+                    <span class="metric-card__label">Market cap</span>
+                    <button type="button" class="info-trigger" data-tooltip="tooltip-marketcap" aria-label="Info about Market cap"> i </button>
+                  </div>
                   <span class="metric-card__value">$8,202,003.71</span>
                 </div>
                 <div class="metric-card__visual">
@@ -637,6 +646,21 @@
               </article>
             </div>
           </div>
+          <dialog id="tooltip-holders" class="metric-tooltip">
+            <p class="tooltip-body">
+              <span>Holders Amount</span> — The total number of wallet addresses currently holding the token, reflecting the breadth of token distribution and community participation.
+            </p>
+          </dialog>
+          <dialog id="tooltip-fdv" class="metric-tooltip">
+            <p class="tooltip-body">
+              <span>FDV (Fully Diluted Valuation)</span> — The total theoretical value of the token if the entire maximum supply were in circulation, based on the current token price.
+            </p>
+          </dialog>
+          <dialog id="tooltip-marketcap" class="metric-tooltip">
+            <p class="tooltip-body">
+              <span>Market Cap</span> — The current market value of the circulating token supply, calculated by multiplying the token price by the number of tokens currently in circulation.
+            </p>
+          </dialog>
         </section>
         <section class="contract">
           <!-- <div class="contract__decor contract__decor--top-left"></div>
@@ -909,7 +933,7 @@
                 <p class="promo__subtitle section-head__subtitle animate"> Where your investment builds trust and impact — not just returns! </p>
               </div>
               <div class="promo__actions">
-                <a href="#" class="promo__btn button">Buy $GRANT</a>
+                <a href="#markets" class="promo__btn button">Buy $GRANT</a>
                 <a href="#" class="promo__btn button button--ghost">Join Community</a>
               </div>
             </div>
@@ -1080,7 +1104,7 @@
       </footer>
     </div>
     <link rel="stylesheet" href="./css/icons-640cbc1880.css" />
-    <script type="text/javascript" src="./js/all-bf42bbdadb.js"></script>
+    <script type="text/javascript" src="./js/all-0202413ce2.js"></script>
   </body>
 
 </html>
