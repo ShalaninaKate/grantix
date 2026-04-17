@@ -9,7 +9,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link rel="stylesheet" href="./css/main-e2a6b649b9.css" />
-    <link rel="stylesheet" href="./css/second-74494064fa.css" />
+    <link rel="stylesheet" href="./css/second-a0be893c00.css" />
   </head>
 
   <body>
@@ -326,7 +326,7 @@
                     <td class="leaderboard__td" data-label="Donation amount">1 000</td>
                     <td class="leaderboard__td" data-label="Avg. Holdings">58 087 555,415</td>
                   </tr>
-                  <tr class="leaderboard__tr">
+                  <tr class="leaderboard__tr leaderboard__tr--hidden-mobile">
                     <td class="leaderboard__td leaderboard__td--num" data-label="#">8</td>
                     <td class="leaderboard__td leaderboard__td--user" data-label="Name">
                       <div class="leaderboard__td-user">
@@ -338,7 +338,7 @@
                     <td class="leaderboard__td" data-label="Donation amount">1 000</td>
                     <td class="leaderboard__td" data-label="Avg. Holdings">58 087 555,415</td>
                   </tr>
-                  <tr class="leaderboard__tr">
+                  <tr class="leaderboard__tr leaderboard__tr--hidden-mobile">
                     <td class="leaderboard__td leaderboard__td--num" data-label="#">9</td>
                     <td class="leaderboard__td leaderboard__td--user" data-label="Name">
                       <div class="leaderboard__td-user">
@@ -350,7 +350,7 @@
                     <td class="leaderboard__td" data-label="Donation amount">1 000</td>
                     <td class="leaderboard__td" data-label="Avg. Holdings">58 087 555,415</td>
                   </tr>
-                  <tr class="leaderboard__tr">
+                  <tr class="leaderboard__tr leaderboard__tr--hidden-mobile">
                     <td class="leaderboard__td leaderboard__td--num" data-label="#">10</td>
                     <td class="leaderboard__td leaderboard__td--user" data-label="Name">
                       <div class="leaderboard__td-user">
@@ -362,7 +362,7 @@
                     <td class="leaderboard__td" data-label="Donation amount">1 000</td>
                     <td class="leaderboard__td" data-label="Avg. Holdings">58 087 555,415</td>
                   </tr>
-                  <tr class="leaderboard__tr">
+                  <tr class="leaderboard__tr leaderboard__tr--hidden-mobile">
                     <td class="leaderboard__td leaderboard__td--num" data-label="#">11</td>
                     <td class="leaderboard__td leaderboard__td--user" data-label="Name">
                       <div class="leaderboard__td-user">
@@ -374,7 +374,7 @@
                     <td class="leaderboard__td" data-label="Donation amount">1 000</td>
                     <td class="leaderboard__td" data-label="Avg. Holdings">58 087 555,415</td>
                   </tr>
-                  <tr class="leaderboard__tr">
+                  <tr class="leaderboard__tr leaderboard__tr--hidden-mobile">
                     <td class="leaderboard__td leaderboard__td--num" data-label="#">12</td>
                     <td class="leaderboard__td leaderboard__td--user" data-label="Name">
                       <div class="leaderboard__td-user">
@@ -386,7 +386,7 @@
                     <td class="leaderboard__td" data-label="Donation amount">1 000</td>
                     <td class="leaderboard__td" data-label="Avg. Holdings">58 087 555,415</td>
                   </tr>
-                  <tr class="leaderboard__tr">
+                  <tr class="leaderboard__tr leaderboard__tr--hidden-mobile">
                     <td class="leaderboard__td leaderboard__td--num" data-label="#">13</td>
                     <td class="leaderboard__td leaderboard__td--user" data-label="Name">
                       <div class="leaderboard__td-user">
@@ -401,6 +401,9 @@
                 </tbody>
               </table>
             </div>
+            <button class="top-sponsors__show-more button button--ghost" type="button" aria-expanded="false">
+              <span>Show more</span>
+            </button>
           </div>
         </section>
         <section id="markets" class="markets section-offset">
@@ -464,7 +467,7 @@
               <p class="section-head__subtitle animate"> Key metrics and GRANT data on the most popular analytical platforms </p>
             </div>
             <div class="platforms__grid">
-              <a href="#" target="_blank" class="platform-card">
+              <a href="https://www.coingecko.com/" target="_blank" class="platform-card">
                 <div class="platform-card__visual">
                   <picture><source srcset="img/platforms/coingecko.webp" type="image/webp"><img src="img/platforms/coingecko.png" alt="Coingecko" class="platform-card__image" /></picture>
                 </div>
@@ -475,7 +478,7 @@
                   </svg>
                 </div>
               </a>
-              <a href="#" target="_blank" class="platform-card">
+              <a href="https://cryptorank.io/" target="_blank" class="platform-card">
                 <div class="platform-card__visual">
                   <picture><source srcset="img/platforms/cryptorank.webp" type="image/webp"><img src="img/platforms/cryptorank.png" alt="Cryptorank" class="platform-card__image" /></picture>
                 </div>
@@ -486,7 +489,7 @@
                   </svg>
                 </div>
               </a>
-              <div class="platform-card platform-card--disabled">
+              <a href="https://coinmarketcap.com/" target="_blank" class="platform-card">
                 <div class="platform-card__visual">
                   <picture><source srcset="img/platforms/coinmarketcap.webp" type="image/webp"><img src="img/platforms/coinmarketcap.png" alt="Coinmarketcap" class="platform-card__image" /></picture>
                 </div>
@@ -494,7 +497,7 @@
                   <span class="platform-card__name">Coinmarketcap</span>
                   <span class="platform-card__status">Coming Soon</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </section>
@@ -504,80 +507,85 @@
               <h2 class="section-head__title animate">Tokenomics & vesting schedule</h2>
               <p class="section-head__subtitle animate"> Facilisis nisl odio pulvinar amet sodales. Orci et non mauris velit in pulvinar. Pellentesque nunc mattis neque nibh varius et egestas pellentesque nunc. Feugiat tellus imperdiet. </p>
             </div>
-            <div class="tokenomics__grid">
-              <div class="tokenomics__chart-wrapper">
-                <picture><source srcset="img/tokenomics-chart.webp" type="image/webp"><img src="img/tokenomics-chart.png" alt="Token distribution chart" class="tokenomics__chart" /></picture>
+            <div class="tokenomics__body">
+              <div class="tokenomics__grid">
+                <div class="tokenomics__chart-wrapper">
+                  <picture><source srcset="img/tokenomics-chart.webp" type="image/webp"><img src="img/tokenomics-chart.png" alt="Token distribution chart" class="tokenomics__chart" /></picture>
+                </div>
+                <article class="token-card token-card--strategic-reserve">
+                  <span class="token-card__percent">20%</span>
+                  <h3 class="token-card__title">Strategic Reserve</h3>
+                  <p class="token-card__amount">$GRANT 200,000,000.00</p>
+                </article>
+                <article class="token-card token-card--angel-round">
+                  <span class="token-card__percent">5%</span>
+                  <h3 class="token-card__title">Angel Round</h3>
+                  <p class="token-card__amount">$GRANT 50,000,000.00</p>
+                </article>
+                <article class="token-card token-card--core-team">
+                  <span class="token-card__percent">19%</span>
+                  <h3 class="token-card__title">Core Team & Contributors</h3>
+                  <p class="token-card__amount">$GRANT 190,000,000.00</p>
+                </article>
+                <article class="token-card token-card--charity">
+                  <span class="token-card__percent">4%</span>
+                  <h3 class="token-card__title">Charity & Grants Foundation</h3>
+                  <p class="token-card__amount">$GRANT 40,000,000.00</p>
+                </article>
+                <article class="token-card token-card--reserve-foundation token-card--hidden-mobile">
+                  <span class="token-card__percent">15%</span>
+                  <h3 class="token-card__title">Reserve Foundation</h3>
+                  <p class="token-card__amount">$GRANT 150,000,000.00</p>
+                </article>
+                <article class="token-card token-card--staking-pool token-card--hidden-mobile">
+                  <span class="token-card__percent">3.5%</span>
+                  <h3 class="token-card__title">Staking Pool Rewards</h3>
+                  <p class="token-card__amount">$GRANT 35,000,000.00</p>
+                </article>
+                <article class="token-card token-card--ecosystem-growth token-card--hidden-mobile">
+                  <span class="token-card__percent">14%</span>
+                  <h3 class="token-card__title">Ecosystem Growth Foundation</h3>
+                  <p class="token-card__amount">$GRANT 140,000,000.00</p>
+                </article>
+                <article class="token-card token-card--pre-sale token-card--hidden-mobile">
+                  <span class="token-card__percent">3.5%</span>
+                  <h3 class="token-card__title">Public Pre-Sale Rounds</h3>
+                  <p class="token-card__amount">$GRANT 35,000,000.00</p>
+                </article>
+                <article class="token-card token-card--marketing token-card--hidden-mobile">
+                  <span class="token-card__percent">5%</span>
+                  <h3 class="token-card__title">Marketing</h3>
+                  <p class="token-card__amount">$GRANT 50,000,000.00</p>
+                </article>
+                <article class="token-card token-card--liquidity-pool-1 token-card--hidden-mobile">
+                  <span class="token-card__percent">3%</span>
+                  <h3 class="token-card__title">Liquidity Pool 1</h3>
+                  <p class="token-card__amount">$GRANT 30,000,000.00</p>
+                </article>
+                <article class="token-card token-card--advisors token-card--bottom token-card--hidden-mobile">
+                  <span class="token-card__percent">3%</span>
+                  <h3 class="token-card__title">Advisors</h3>
+                  <p class="token-card__amount">$GRANT 30,000,000.00</p>
+                </article>
+                <article class="token-card token-card--liquidity-pool-2 token-card--bottom token-card--hidden-mobile">
+                  <span class="token-card__percent">2%</span>
+                  <h3 class="token-card__title">Liquidity Pool 2</h3>
+                  <p class="token-card__amount">$GRANT 20,000,000.00</p>
+                </article>
+                <article class="token-card token-card--learn-to-earn token-card--bottom token-card--hidden-mobile">
+                  <span class="token-card__percent">2%</span>
+                  <h3 class="token-card__title">Learn-to-Earn Rewards</h3>
+                  <p class="token-card__amount">$GRANT 20,000,000.00</p>
+                </article>
+                <article class="token-card token-card--community-airdrops token-card--bottom token-card--hidden-mobile">
+                  <span class="token-card__percent">1%</span>
+                  <h3 class="token-card__title">Community Airdrops</h3>
+                  <p class="token-card__amount">$GRANT 10,000,000.00</p>
+                </article>
               </div>
-              <article class="token-card token-card--strategic-reserve">
-                <span class="token-card__percent">20%</span>
-                <h3 class="token-card__title">Strategic Reserve</h3>
-                <p class="token-card__amount">$GRANT 200,000,000.00</p>
-              </article>
-              <article class="token-card token-card--angel-round">
-                <span class="token-card__percent">5%</span>
-                <h3 class="token-card__title">Angel Round</h3>
-                <p class="token-card__amount">$GRANT 50,000,000.00</p>
-              </article>
-              <article class="token-card token-card--core-team">
-                <span class="token-card__percent">19%</span>
-                <h3 class="token-card__title">Core Team & Contributors</h3>
-                <p class="token-card__amount">$GRANT 190,000,000.00</p>
-              </article>
-              <article class="token-card token-card--charity">
-                <span class="token-card__percent">4%</span>
-                <h3 class="token-card__title">Charity & Grants Foundation</h3>
-                <p class="token-card__amount">$GRANT 40,000,000.00</p>
-              </article>
-              <article class="token-card token-card--reserve-foundation">
-                <span class="token-card__percent">15%</span>
-                <h3 class="token-card__title">Reserve Foundation</h3>
-                <p class="token-card__amount">$GRANT 150,000,000.00</p>
-              </article>
-              <article class="token-card token-card--staking-pool">
-                <span class="token-card__percent">3.5%</span>
-                <h3 class="token-card__title">Staking Pool Rewards</h3>
-                <p class="token-card__amount">$GRANT 35,000,000.00</p>
-              </article>
-              <article class="token-card token-card--ecosystem-growth">
-                <span class="token-card__percent">14%</span>
-                <h3 class="token-card__title">Ecosystem Growth Foundation</h3>
-                <p class="token-card__amount">$GRANT 140,000,000.00</p>
-              </article>
-              <article class="token-card token-card--pre-sale">
-                <span class="token-card__percent">3.5%</span>
-                <h3 class="token-card__title">Public Pre-Sale Rounds</h3>
-                <p class="token-card__amount">$GRANT 35,000,000.00</p>
-              </article>
-              <article class="token-card token-card--marketing">
-                <span class="token-card__percent">5%</span>
-                <h3 class="token-card__title">Marketing</h3>
-                <p class="token-card__amount">$GRANT 50,000,000.00</p>
-              </article>
-              <article class="token-card token-card--liquidity-pool-1">
-                <span class="token-card__percent">3%</span>
-                <h3 class="token-card__title">Liquidity Pool 1</h3>
-                <p class="token-card__amount">$GRANT 30,000,000.00</p>
-              </article>
-              <article class="token-card token-card--advisors token-card--bottom">
-                <span class="token-card__percent">3%</span>
-                <h3 class="token-card__title">Advisors</h3>
-                <p class="token-card__amount">$GRANT 30,000,000.00</p>
-              </article>
-              <article class="token-card token-card--liquidity-pool-2 token-card--bottom">
-                <span class="token-card__percent">2%</span>
-                <h3 class="token-card__title">Liquidity Pool 2</h3>
-                <p class="token-card__amount">$GRANT 20,000,000.00</p>
-              </article>
-              <article class="token-card token-card--learn-to-earn token-card--bottom">
-                <span class="token-card__percent">2%</span>
-                <h3 class="token-card__title">Learn-to-Earn Rewards</h3>
-                <p class="token-card__amount">$GRANT 20,000,000.00</p>
-              </article>
-              <article class="token-card token-card--community-airdrops token-card--bottom">
-                <span class="token-card__percent">1%</span>
-                <h3 class="token-card__title">Community Airdrops</h3>
-                <p class="token-card__amount">$GRANT 10,000,000.00</p>
-              </article>
+              <button class="tokenomics__show-more button button--ghost" type="button">
+                <span>Show more</span>
+              </button>
             </div>
             <div class="token-summary">
               <picture><source srcset="img/token-summary-bg.webp" type="image/webp"><img src="img/token-summary-bg.png" alt="" class="token-summary__bg" aria-hidden="true" /></picture>
@@ -663,8 +671,6 @@
           </dialog>
         </section>
         <section class="contract">
-          <!-- <div class="contract__decor contract__decor--top-left"></div>
-  <div class="contract__decor contract__decor--bottom-right"></div> -->
           <div class="contract__container">
             <div class="contract__head section-head section-head--center">
               <h2 class="section-head__title animate">Official GRANT Contract</h2>
@@ -672,7 +678,7 @@
             </div>
             <div class="contract__body">
               <div class="copy-field">
-                <span class="copy-field__value">0x7CE42E8A5A42eb15f0C9A08ee9a079d99B1D83cf</span>
+                <span class="copy-field__value" data-full-address="0x7CE42E8A5A42eb15f0C9A08ee9a079d99B1D83cf">0x7CE42E8A5A42eb15f0C9A08ee9a079d99B1D83cf</span>
                 <button class="copy-field__btn" type="button" aria-label="Copy contract address">
                   <span> Copy</span>
                   <svg class="copy-field__icon">
@@ -705,7 +711,7 @@
               <p class="roadmap__subtitle section-head__subtitle animate"> Elementum turpis facilisi lorem at commodo sed egestas. Euismod condimentum dictum. </p>
             </div>
             <div class="roadmap__track">
-              <div class="roadmap__step roadmap__step--active">
+              <div class="roadmap__step roadmap__step--1">
                 <div class="roadmap__card roadmap__card--top">
                   <h3 class="roadmap__quarter">Q1 2026</h3>
                   <ul class="roadmap__list">
@@ -731,7 +737,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="roadmap__step  roadmap__step--3">
+              <div class="roadmap__step roadmap__step--3">
                 <div class="roadmap__card roadmap__card--top">
                   <h3 class="roadmap__quarter">Q3 2026</h3>
                   <ul class="roadmap__list">
@@ -747,7 +753,6 @@
                 <div class="roadmap__spacer"></div>
                 <div class="roadmap__node">
                   <span class="roadmap__arrow"></span>
-                  <!-- стрелка -->
                 </div>
                 <div class="roadmap__card roadmap__card--bottom roadmap__card--last">
                   <h3 class="roadmap__quarter">Q4 2026</h3>
@@ -1104,7 +1109,7 @@
       </footer>
     </div>
     <link rel="stylesheet" href="./css/icons-640cbc1880.css" />
-    <script type="text/javascript" src="./js/all-0202413ce2.js"></script>
+    <script type="text/javascript" src="./js/all-340a11b39d.js"></script>
   </body>
 
 </html>
